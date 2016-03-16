@@ -1,0 +1,29 @@
+/*what we*/
+.whatwe{
+  background-color: $verdehoja;
+}
+.cuadrocontenedor{
+  padding: 10%;
+  margin: 3% 10%;
+}
+.cuadro{
+  background-color:black;
+  width: 150px;
+  height: 150px;
+  margin-left: 20%;
+}
+.fondo{
+  width: 100%;
+  height: 150px;
+}
+.iconito{
+  
+  position:relative;
+  bottom: 132px;
+}
+button{
+  background-color:black;
+  color: $blanco;
+  padding: 10px;
+  border: none;
+}
