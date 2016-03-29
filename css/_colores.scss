@@ -1,0 +1,38 @@
+$celesteclaro: #69D2E7;
+$celesteoscuro: #A7DBDB;
+$verdecrema: #E0E4CC;
+$naranjaclaro: #F38630;
+$naranjaoscuro: #FA6900;
+$rosado: #E94C6F;
+$guinda: #542733;
+$plomoverde: #5A6A62;
+$plomo: #C6D5CD;
+$amarillo: #FDF200;
+$rojo: #DB3340;
+$ocre: #E8B71A;
+$crema: #F7EAC8;
+$verdeclaro: #1FDA9A;
+$celestevivo: #28ABE3;
+$verdeopaco: #588C73;
+$amarillopastel: #F2E394;
+$naranjapastel: #F2AE72;
+$naranjaopaco: #D96459;
+$guindamarron: #8C4646;
+$verdelimon: #D0C91F;
+$celesteverde: #85C4B9;
+$celestevivoB: #008BBA;
+$naranjabajo: #DF514C;
+$naranjvivo: #DC403B;
+$blanco: #FFFFFF;
+$grisclaro: #DCD5D5;
+$grisoscuro: #2C3E50;
+$verdehoja: #27AD60;
+$anaranjadoscuro: #CF7526;
+
+
+@mixin  box-shadow($shadow...)  { 
+  -webkit-box-shadow :  $shadow; 
+     -moz-box-shadow :  $shadow; 
+      -ms-box-shadow :  $shadow; 
+          box-shadow :  $shadow; 
+}

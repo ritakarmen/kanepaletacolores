@@ -1,0 +1,123 @@
+/*paleta*/
+@import '_colores';
+.pick{
+  margin: 3% 25% 1% 25%;
+  font-size: 18px;
+}
+.tcolor{
+  margin-top: 1%;
+}
+table{
+  width: 100%;
+}
+hr{
+  width: 30%;
+  border: 1.5px solid $grisoscuro;
+  margin-bottom:2%;
+}
+@mixin estilo{
+	width: 100px;
+	height: 105px;
+	text-align:center;
+	color:$blanco;
+}
+.color_1{
+	@include estilo;
+	background: $celesteclaro;
+}
+.color_2{
+	@include estilo;
+	background: $celesteoscuro;
+}
+.color_3{
+	@include estilo;
+	background: $verdecrema;
+}
+.color_4{
+	@include estilo;
+	background: $naranjaclaro;
+}
+.color_5{
+	@include estilo;
+	background: $naranjaoscuro;
+}
+.color_6{
+	@include estilo;
+	background: $rosado;
+}
+.color_7{
+	@include estilo;
+	background: $guinda;
+}
+.color_8{
+	@include estilo;
+	background: $plomoverde;
+}
+.color_9{
+	@include estilo;
+	background: $plomo;
+}
+.color_10{
+	@include estilo;
+	background: $amarillo;
+}
+.color_11{
+	@include estilo;
+	background: $rojo;
+}
+.color_12{
+	@include estilo;
+	background: $ocre;
+}
+.color_13{
+	@include estilo;
+	background: $crema;
+}
+.color_14{
+	@include estilo;
+	background: $verdeclaro;
+}
+.color_15{
+	@include estilo;
+	background: $celestevivo;
+}
+.color_16{
+	@include estilo;
+	background: $verdeopaco;
+}
+.color_17{
+	@include estilo;
+	background: $amarillopastel;
+}
+.color_18{
+	@include estilo;
+	background: $naranjapastel;
+}
+.color_19{
+	@include estilo;
+	background: $naranjaopaco;
+}
+.color_20{
+	@include estilo;
+	background: $guindamarron;
+}
+.color_21{
+	@include estilo;
+	background: $verdelimon;
+}
+.color_22{
+	@include estilo;
+	background: $celesteverde;
+}
+.color_23{
+	@include estilo;
+	background:$celestevivoB;
+}
+.color_24{
+	@include estilo;
+	background: $naranjabajo;
+}
+.color_25{
+	@include estilo;
+	background: $naranjvivo;
+}
